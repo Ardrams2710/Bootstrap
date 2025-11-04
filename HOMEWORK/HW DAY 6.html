@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      </head>
+<body>
+    <div class="container mt-5"style ="width:50%">
+        <h1 class = "title text-danger text-center">VELVET OVEN</h1>
+        <h4 class="text-center text-success">Feedback Form</h4>
+        <div class="form-group">
+  <label for="usr">1. Name:</label>
+  <input type="text" class="form-control" id="usr" placeholder="Enter username">
+</div>
+<div class="form-group">
+      <label for="pwd">2. E-mail:</label>
+      <div class="input-group-prepend">
+      <span class="input-group-text">@</span>
+      <input type="email" class="form-control" id="e-mail" placeholder="Enter e-mail">
+    </div><br>
+    <div class="form-group">
+  <label for="comment">3. Feedback Message:</label>
+  <textarea class="form-control" rows="3" id="feedback message"></textarea>
+</div>
+<div class="form-group">
+     <label for="contact method" class="form-label">4. Contact Method:</label>
+     <select class="form-select" id="contact method">
+        <option value=>Choose</option>
+        <option value="e-mail">E-mail</option>
+        <option value="phone">Phone</option>
+     </select>
+</div>
+ <div class="form-check">
+  <label class="form-check-label ml-0">
+    <label class="level of satisfaction" class="form-label">5. What is your level of satisfaction by using our products? (1-10)</label>
+    <div class="form-check">
+  <label class="form-check-label">
+    <input type="range" class ="form-range" id="satisfaction" min="1" max="10">
+</div><br>
+<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+  6. Type of order
+</button><br>
+<div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Cake</a>
+      <a class="dropdown-item" href="#">Cookies</a>
+      <a class="dropdown-item" href="#">Pastries</a>
+    </div>
+    </label><br>
+    <div class="container justify-content-center mb--2" style="width: 50%;">
+ <button type="button" class="btn btn-primary">Submit</button><br>
+ </div>
+ </div>
+ </div>
+ </div>
+</body>
+</html>
